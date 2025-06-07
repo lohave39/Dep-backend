@@ -5,7 +5,7 @@ const app = express();
 // middleware for cors
 app.use(
     cors({
-        origin: ["http://localhost:5173"],
+        origin: ["http://54.161.228.235"],
     })
 );
 app.listen(PORT, () => {
